@@ -6,7 +6,7 @@ object P39_IntegerRightTriangles {
     var count = 0
     for {
       a <- 3 to p
-      b <- 3 until a
+      b <- 3 to a
       c = p - a - b
       if a * a + b * b == c * c
     } count += 1
