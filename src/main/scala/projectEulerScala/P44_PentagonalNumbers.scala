@@ -1,5 +1,6 @@
 package main.scala.projectEulerScala
 
+// 5482660
 object P44_PentagonalNumbers {
   val cache = (1 to 5000).map(n => n * (3 * n - 1) / 2).toSeq
 

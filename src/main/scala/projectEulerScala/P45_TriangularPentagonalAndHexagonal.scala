@@ -1,5 +1,6 @@
 package main.scala.projectEulerScala
 
+// 1533776805
 object P45_TriangularPentagonalAndHexagonal {
   def pentagonal = Stream.from(1).map(n => n.toLong * (3 * n - 1) / 2)
 
