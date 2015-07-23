@@ -12,7 +12,6 @@ object P45_TriangularPentagonalAndHexagonal {
       else ahead #:: intersect(as, bs)
   }
 
-
   def main(args: Array[String]) {
     val joined = intersect(pentagonal, hexagonal)
     println(joined.dropWhile(_ <= 40755).head)
