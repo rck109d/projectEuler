@@ -56,11 +56,10 @@ func isPalindrome(s string) bool {
 func P55() {
 	hits := 0
 	for i := 0; i < 10000; i++ {
-		pass, numIter := makeLychrel(int64(i)).test(50)
+		pass, _ := makeLychrel(int64(i)).test(50)
 		if pass {
 			hits++
-			fmt.Println(i, numIter)
 		}
 	}
-	fmt.Println("num hits:", hits)
+	fmt.Println("p55:", hits)
 }

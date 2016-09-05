@@ -6,4 +6,5 @@ import (
 
 func main() {
 	euler.P55()
+	euler.P56()
 }
